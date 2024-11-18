@@ -1,0 +1,28 @@
+{
+  "kind": "collectionType",
+  "collectionName": "insetos_que_atacam_vagens_e_graos",
+  "info": {
+    "singularName": "insetos-que-atacam-vagens-e-grao",
+    "pluralName": "insetos-que-atacam-vagens-e-graos",
+    "displayName": "Insetos que atacam vagens e grãos"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "titulo": {
+      "type": "string",
+      "required": true
+    },
+    "descricao": {
+      "type": "richtext"
+    },
+    "subnivel": {
+      "type": "dynamiczone",
+      "components": [
+        "components.texto-secao"
+      ]
+    }
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "kind": "collectionType",
+  "collectionName": "niveis_de_acaos",
+  "info": {
+    "singularName": "niveis-de-acao",
+    "pluralName": "niveis-de-acaos",
+    "displayName": "Níveis de ação"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "titulo": {
+      "type": "string",
+      "required": true
+    },
+    "descricao": {
+      "type": "richtext",
+      "required": true
+    },
+    "subnivel": {
+      "type": "dynamiczone",
+      "components": [
+        "components.texto-secao"
+      ]
+    }
+  }
+}

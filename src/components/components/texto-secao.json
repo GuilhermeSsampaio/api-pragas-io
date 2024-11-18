@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_components_texto_secaos",
+  "info": {
+    "displayName": "Texto da Seção",
+    "icon": "file",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "titulo_subcap": {
+      "type": "string",
+      "required": true
+    },
+    "texto_subcap": {
+      "type": "richtext",
+      "required": true
+    }
+  }
+}

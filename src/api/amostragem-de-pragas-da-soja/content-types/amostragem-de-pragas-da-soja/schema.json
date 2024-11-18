@@ -1,0 +1,29 @@
+{
+  "kind": "collectionType",
+  "collectionName": "amostragem_de_pragas_da_sojas",
+  "info": {
+    "singularName": "amostragem-de-pragas-da-soja",
+    "pluralName": "amostragem-de-pragas-da-sojas",
+    "displayName": "Amostragem de pragas da soja"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "titulo": {
+      "type": "string",
+      "required": true
+    },
+    "descricao": {
+      "type": "richtext",
+      "required": true
+    },
+    "subnivel": {
+      "type": "dynamiczone",
+      "components": [
+        "components.texto-secao"
+      ]
+    }
+  }
+}
